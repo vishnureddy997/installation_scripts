@@ -25,6 +25,7 @@ kubectl version -o yaml
 
 echo "Start the minikube"
 minikube start --driver=docker
+mimikube start
 minikube status
 
 
